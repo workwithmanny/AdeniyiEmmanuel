@@ -241,16 +241,12 @@ input, button, textarea, select { font: inherit }
 
 /* ==== Headings ==== */
 
-body { padding: 4% 20%; 
-   }
-
 h1 {
 	font-family: sans-serif;
 	font-size: 64px;
     text-align: center;
     letter-spacing: -1px;
     margin-bottom: 64px;
-    margin-top: 10px;
 }
 
 h3 {
@@ -264,37 +260,31 @@ p {
 	font-family: sans-serif;
     font-size: 20px;
     color: #696969;
-    line-height: 1.7;
-    margin-bottom: 20px;
+    line-height: 1.7
 }
-
+/* Div selector with properties and values */
 div {
-    padding: 12px;
-    margin-bottom: 40px;
-    width: 50%;
+
+padding: 12px;
+margin-bottom: 40px;
+width: 25%;
+}
+.bono {
+    background-color: #4081ec;
 }
 
-.bono {
-        background-color: #4081ec;
-
-    }
-    
 .edge {
-        background-color: #ffbb33;
+    background-color: #ffbb33;
+}
 
-    }
-    
 .adam {
-        background-color: #f73345;
+    background-color: #f73345;
+}
 
-    }
-    
 .larry {
-        background-color: #e0e0e0;
-
-    }
- 
-    .bono h3,
+    background-color: #e0e0e0;
+}
+.bono h3,
 .bono p,
 .adam h3,
 .adam p { color: #fff }
@@ -303,4 +293,3 @@ div {
 .edge p,
 .larry h3,
 .larry p { color: #000 }
-

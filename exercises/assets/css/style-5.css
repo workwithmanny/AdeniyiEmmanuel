@@ -295,8 +295,9 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
+/* image */
 img {
-margin-bottom: 32px;
-border-radius: 15px;
+    margin-bottom: 32px;
+    /*soften corners of image*/
+    border-radius: 15px;
 }
